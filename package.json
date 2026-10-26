@@ -36,6 +36,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/OWNER/dsh-taiqu-diagnosis.git"
+    "url": "https://github.com/LuanQiBaiLi-CH/dsh-taiqu-diagnosis.git"
+  },
+  "homepage": "https://github.com/LuanQiBaiLi-CH/dsh-taiqu-diagnosis",
+  "bugs": {
+    "url": "https://github.com/LuanQiBaiLi-CH/dsh-taiqu-diagnosis/issues"
   }
 }

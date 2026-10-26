@@ -1,3 +1,5 @@
+[![test](https://github.com/LuanQiBaiLi-CH/dsh-taiqu-diagnosis/actions/workflows/test.yml/badge.svg)](https://github.com/LuanQiBaiLi-CH/dsh-taiqu-diagnosis/actions/workflows/test.yml)
+
 # dsh-taiqu-diagnosis
 
 台区线损与台区异常的**确定性**诊断插件，给 DeepSeek Harness 的 Host 用。
