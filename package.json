@@ -1,0 +1,41 @@
+{
+  "name": "@local/dsh-taiqu-diagnosis",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "台区线损与台区异常确定性诊断工具：表结构识别、重复行校验、线损率重算、一台区多终端与终端归属核对。",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "lib/engine.py",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "python3 tests/test_engine.py"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "distribution-area",
+    "line-loss",
+    "power-grid",
+    "diagnosis"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OWNER/dsh-taiqu-diagnosis.git"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Distribution Area Loss Diagnosis",
+    "description": "Deterministic tooling for distribution-area line-loss and topology anomalies: detect the real header row and field roles in an export, validate duplicate rows, recompute the loss rate per area per period, and check one-area-multiple-terminals plus meter-to-terminal attribution. Thresholds come from call arguments; missing ones are reported as gaps, never guessed."
+  }
+}

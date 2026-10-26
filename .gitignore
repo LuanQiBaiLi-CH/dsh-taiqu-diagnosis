@@ -1,0 +1,20 @@
+# 运行产物
+__pycache__/
+*.py[cod]
+*.log
+
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 系统
+.DS_Store
+
+# 业务数据：任何台区报表、客户明细、诊断输出都不进版本库
+*.xlsx
+*.xls
+*.xlsb
+*.csv
+!tests/fixtures/*.csv
+报告/
+out/

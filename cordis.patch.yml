@@ -1,0 +1,4 @@
+- insert:
+    - id: taiqu-diagnosis
+      name: '@local/dsh-taiqu-diagnosis'
+      config: {}
